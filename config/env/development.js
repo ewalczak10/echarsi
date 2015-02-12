@@ -1,9 +1,10 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://quazzy:password@ds031681.mongolab.com:31681/sponserme',
+	//db: 'mongodb://quazzy:password@ds031681.mongolab.com:31681/sponserme',
+	db: 'mongodb://localhost/mymean-dev',
 	app: {
-		title: 'Champion'
+		title: 'eCharsi'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
